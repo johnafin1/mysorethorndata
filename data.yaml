@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Mysore-Thorn-Weed']
+
+roboflow:
+  workspace: john-finlayson
+  project: australian-weeds-r3gk2
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/john-finlayson/australian-weeds-r3gk2/dataset/1
